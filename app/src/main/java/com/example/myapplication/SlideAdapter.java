@@ -6,10 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.List;
-import java.util.Map;
 
 public class SlideAdapter extends BaseAdapter implements SlideLayout.OnStateChangeListener {
 
@@ -76,7 +74,7 @@ public class SlideAdapter extends BaseAdapter implements SlideLayout.OnStateChan
             this.slideLayout = null;
     }
 
-    class SlideHolder{
+    class SlideHolder {
         private TextView textView1, textView2, textView3;
 
         public SlideHolder(View view) {
